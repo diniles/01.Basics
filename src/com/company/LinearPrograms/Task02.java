@@ -13,6 +13,7 @@ public class Task02 {
         double firstPart = (b + Math.sqrt(Math.pow(b, 2) + 4 * a * c)) / 2 * a;
         double secondPart = Math.pow(a, 3) * c + Math.pow(b, -2);
         System.out.println(firstPart - secondPart);
+        scanner.close();
     }
 
 }

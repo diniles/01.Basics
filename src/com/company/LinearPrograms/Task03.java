@@ -10,5 +10,6 @@ public class Task03 {
         double x = scanner.nextDouble();
         double y = scanner.nextDouble();
         System.out.println((Math.sin(x) + Math.cos(y) / (Math.cos(x) - Math.sin(y))) * Math.tan(x * y));
+        scanner.close();
     }
 }

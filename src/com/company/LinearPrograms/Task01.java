@@ -10,5 +10,6 @@ public class Task01 {
         int b = scanner.nextInt();
         int c = scanner.nextInt();
         System.out.println(((a - 3) * b / 2) + c);
+        scanner.close();
     }
 }
