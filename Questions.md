@@ -150,4 +150,5 @@ Arithmetic.png & Relations.png & Bit.png & Logical.png & Priority.png
 - do { /*операторы*/ } while (boolexp);
 - for(exp1; boolexp; exp3){ /*операторы*/ }
 - for((Тип exp1 : exp2){ /*операторы*/ }
+- break – применяется для выхода из цикла оператора switch continue – применяется для перехода к следующей итерации цикла
 #### 21. Объясните работу оператора instanceof. Что будет результатом работы оператора, если слева от него будет стоять ссылка, равная null?
