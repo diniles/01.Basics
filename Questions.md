@@ -152,3 +152,8 @@ Arithmetic.png & Relations.png & Bit.png & Logical.png & Priority.png
 - for((Тип exp1 : exp2){ /*операторы*/ }
 - break – применяется для выхода из цикла оператора switch continue – применяется для перехода к следующей итерации цикла
 #### 21. Объясните работу оператора instanceof. Что будет результатом работы оператора, если слева от него будет стоять ссылка, равная null?
+Оператор instanceof возвращает значение true, если объект является экземпляром данного типа. Результатом действия оператора instanceof будет истина, если объект является объектом типа, с которым идет поверка или одного из его подклассов, но не наоборот.
+
+"At run time, the result of the instanceof operator is true if the value of the RelationalExpression is not null and the reference could be cast to the ReferenceType without raising a ClassCastException. Otherwise the result is false."
+
+see \Questions\InstanceofCheck.java
